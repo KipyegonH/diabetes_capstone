@@ -35,6 +35,7 @@ The repository includes the following:
 - **capstone\_environment/**: Deployment-related scripts:
   - `train.py`: Trains and saves the final model.
   - `predict.py`: Hosts the model as a web service.
+  - `predict-test.py`: Hosts the model as a web service.
   - `Dockerfile`: Defines the Docker container setup.
 - **requirements.txt**: Required Python packages.
 - **models/**: Contains saved models and preprocessing files:
